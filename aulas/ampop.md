@@ -52,3 +52,18 @@ Uma maneira de se contornar isso é realizar essa montagem com um amplificador n
 ![Alt text](ampop2.png)
 
 * Nessa configuração, os resistores não estão em paralelo, portanto o crescimento é linear
+
+# 01-09-2023
+
+## Amplificador de Diferenças
+
+O Amplificador de Diferenças é outra configuração de montagem com o Amp Op.
+
+![Amplificador Diferencial](https://materiais.imd.ufrn.br/materialV2/assets/imagens/circuitos-eletronicos/circuitos_eletronicos_a10_f05_a.png)
+
+Essa configuração, a partir de duas tensões de entrada $V_+$ e $V_-$, retorna $V_{out} =\frac{R_2}{R_1} (V_2 - V_1)$.
+
+
+## Limite de Frequência do Amp Op
+
+O Amp Op possui um limite de frequência de operação. O usado nesse caso, *LM741*, parece ter um limite que começa a aparecer a partir de 8kHz, chegando em um limite a partir de 150kHz. 

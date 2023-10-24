@@ -59,13 +59,46 @@ A queda de tensão não é íngreme, e sim uma rampa: Porém, existem níveis de
     Componentes ativos: componentes que são alimentados separadamente. Como exemplo, existe o amplificador operacional.
 ```
 
-
-
 ## RC
 
 Filtro passa baixa mais comum.
 
 ![Filtro passa-baixa](https://upload.wikimedia.org/wikipedia/commons/e/e7/Low_pass_filter.png)
+
+# 22-09-2023
+
+## Filtro Passa-Frequência
+
+* L = 1 uH
+* R = 1 kO
+* C = 10 nF
+
+$f_{Res}$ =  1.75 MHz
+
+Frequência de passagem: $1.5 MHz < f < 1.9 MHz$
+
+* C = 100 nF
+
+$f_{Res}$ =  520 kHz 
+
+Frequência de passagem: $477 kHz < f < 557 kHz$
+
+
+* C = 220 nF
+
+$f_{Res}$ =  345 kHz 
+
+Frequência de passagem: $298 kHz < f < 376 kHz$
+
+## Filtro Rejeita-Frequência
+
+* L = 1 uH
+* R = 1 kO
+* C = 220 nF
+
+$f_{queda}$ =  700 Hz
+
+Frequência de passagem: $700 Hz < f$
 
 
     
